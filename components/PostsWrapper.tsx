@@ -34,10 +34,12 @@ const PostsWrapper = ({ posts }: Props) => {
           </React.Fragment>
         ))}
       </div>
-      {isFetchingNextPage && (
+      {isFetchingNextPage && hasNextPage ? (
         <p className="text-center">Loading more posts...</p>
+      ) : (
+        <p className="text-center">No more posts found</p>
       )}
-      {!hasNextPage && <p className="text-center">No more posts found</p>}
+
       <div ref={ref} />
     </div>
   );
