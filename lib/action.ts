@@ -1,4 +1,4 @@
-import { FETCH_POSTS_LIMIT } from "./contants";
+import { FETCH_POSTS_LIMIT } from "./constants";
 
 export default async function getPosts({
   pageParam = 1,
