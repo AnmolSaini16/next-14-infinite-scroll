@@ -4,25 +4,25 @@
 
 @layer base {
   :root {
-    --background: 150 10% 98%;
-    --foreground: 160 15% 10%;
-    --card: 150 15% 100%;
-    --card-foreground: 160 15% 10%;
-    --popover: 150 15% 100%;
-    --popover-foreground: 160 15% 10%;
-    --primary: 160 55% 40%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 150 10% 94%;
-    --secondary-foreground: 160 15% 10%;
-    --muted: 150 10% 94%;
-    --muted-foreground: 160 8% 45%;
-    --accent: 160 55% 40%;
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 65% 50%;
+    --background: 220 20% 7%;
+    --foreground: 210 15% 90%;
+    --card: 220 18% 10%;
+    --card-foreground: 210 15% 90%;
+    --popover: 220 18% 10%;
+    --popover-foreground: 210 15% 90%;
+    --primary: 165 60% 50%;
+    --primary-foreground: 220 20% 7%;
+    --secondary: 220 15% 14%;
+    --secondary-foreground: 210 15% 90%;
+    --muted: 220 15% 14%;
+    --muted-foreground: 215 12% 50%;
+    --accent: 165 60% 50%;
+    --accent-foreground: 220 20% 7%;
+    --destructive: 0 55% 45%;
     --destructive-foreground: 0 0% 100%;
-    --border: 150 10% 90%;
-    --input: 150 10% 90%;
-    --ring: 160 55% 40%;
+    --border: 220 15% 16%;
+    --input: 220 15% 16%;
+    --ring: 165 60% 50%;
     --radius: 0.75rem;
   }
 }
@@ -81,7 +81,7 @@
     opacity: 0.3;
   }
   50% {
-    opacity: 0.5;
+    opacity: 0.6;
   }
 }
 
@@ -104,7 +104,7 @@
   background: linear-gradient(
     90deg,
     hsl(var(--muted)) 0%,
-    hsl(var(--background)) 50%,
+    hsl(var(--border)) 50%,
     hsl(var(--muted)) 100%
   );
   background-size: 200% 100%;
@@ -134,8 +134,8 @@
 .gradient-text {
   background: linear-gradient(
     135deg,
-    hsl(160 60% 35%) 0%,
-    hsl(170 55% 40%) 100%
+    hsl(165 65% 55%) 0%,
+    hsl(180 60% 50%) 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
